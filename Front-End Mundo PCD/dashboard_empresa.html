@@ -42,6 +42,10 @@
                 <div class="menu-icon">⚙️</div>
                 Conta
             </div>
+            <div class="menu-item" data-section="cursos">
+               <div class="menu-icon">🎓</div>
+                Cadastrar Curso
+            </div>
         </div>
 
         <div class="content">
@@ -301,7 +305,56 @@
                     </div>
                 </div>
             </div>
+            <!-- Cadastrar Curso -->
+                        <div class="content-section" id="cursos">
+                          <div class="dashboard-card">
+                          <h2 class="card-title">Cadastrar Novo Curso</h2>
+        
+        <div class="form-container">
+            <div class="form-group">
+                <label class="form-label required">Nome do Curso:</label>
+                <input type="text" class="form-input" placeholder="Ex: Excel Básico">
+            </div>
 
+            <div class="form-group">
+                <label class="form-label required">Área de Conhecimento:</label>
+                <select class="form-input">
+                    <option>Selecione uma área</option>
+                    <option>Informática</option>
+                    <option>Administração</option>
+                    <option>Comunicação</option>
+                    <option>Serviços</option>
+                    <option>Outros</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label class="form-label required">Carga Horária:</label>
+                <input type="text" class="form-input" placeholder="Ex: 40 horas">
+            </div>
+
+            <div class="form-group">
+                <label class="form-label required">Modalidade:</label>
+                <select class="form-input">
+                    <option>Presencial</option>
+                    <option>Online</option>
+                    <option>Híbrido</option>
+                </select>
+            </div>
+
+            <div class="form-group full-width">
+                <label class="form-label required">Descrição do Curso:</label>
+                <textarea class="form-textarea" rows="5" placeholder="Descreva o conteúdo, objetivos e público-alvo do curso..."></textarea>
+            </div>
+        </div>
+
+        <div style="display: flex; justify-content: flex-end; gap: 1rem; margin-block-start: 2rem;">
+            <button class="btn btn-secondary">Salvar Rascunho</button>
+            <button class="btn-next">Publicar Curso</button>
+        </div>
+    </div>
+</div>
+        
             <!-- Conta -->
             <div class="content-section" id="conta">
                 <div class="dashboard-card">
